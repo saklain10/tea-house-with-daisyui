@@ -20,13 +20,16 @@
       extend: {
         colors: {
           clifford: '#da373d',
-        }
-      }
-    }
+        },
+        fontFamily:{
+          manrope: ["Manrope", "sans-serif"],
+        },
+      },
+    },
   }
 </script>
 
-<body>
+<body class="font-manrope">
   <!-- Main Content -->
   <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
     <!-- Header Section -->
@@ -113,8 +116,8 @@
         <!-- image section -->
         <div class="grid grid-cols-2 grid-rows-3 gap-4 w-5/6">
           <div class="h-38 bg-gradient-to-r from-red-100 to-red-50 rounded-xl"></div>
-          <div class="bg-orange-50 rounded-xl row-span-2"><img class="mx-auto" src="images/fresh-1.png" alt=""></div>
-          <div class="bg-orange-50 rounded-xl row-span-2"><img class="mx-auto" src="images/fresh-2.png" alt=""></div>
+          <div class="bg-orange-50 rounded-xl row-span-2 flex items-center"><img class="mx-auto" src="images/fresh-1.png" alt=""></div>
+          <div class="bg-stone-50 rounded-xl row-span-2 flex items-center"><img class="mx-auto" src="images/fresh-2.png" alt=""></div>
           <div class="h-38 bg-gradient-to-r from-stone-200 to-stone-100 rounded-xl"></div>
         </div>
 
@@ -201,6 +204,46 @@
     </section>
 
     <!-- New section Homework -->
+     <section class="mb-32">
+      <div class="text-center lg:mb-19">
+        <h1 class="font-bold text-4xl md:text-5xl mb-8 md:mb-5">News & Events</h1>
+        <p class="text-gray-500 pb-7 md:pb-10 lg:pb-13">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,<br> by injected humour, or randomised words which don't look even slightly believable. </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="rounded-lg border">
+          <img class="rounded-lg p-5 pb-0" src="images/news-1.png" alt="">
+          <div class="p-5 space-y-3">
+            <p class="text-gray-500">Feb 05, 2027</p>
+          <h2 class="text-2xl font-semibold">Collecting 8 points for discount</h2>
+          <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available.</p>
+          <h4 class="font-semibold">Learn More</h4>
+          </div>
+
+        </div>
+        <div class="rounded-lg border">
+          <img class="rounded-lg p-5 pb-0" src="images/news-2.png" alt="">
+          <div class="p-5 space-y-3">
+            <p class="text-gray-500">Feb 05, 2027</p>
+          <h2 class="text-2xl font-semibold">Collecting 8 points for discount</h2>
+          <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available.</p>
+          <h4 class="font-semibold">Learn More</h4>
+          </div>
+
+        </div>
+        <div class="rounded-lg border">
+          <img class="rounded-lg p-5 pb-0" src="images/news-3.png" alt="">
+          <div class="p-5 space-y-3">
+            <p class="text-gray-500">Feb 05, 2027</p>
+          <h2 class="text-2xl font-semibold">Collecting 8 points for discount</h2>
+          <p class="text-gray-500">There are many variations of passages of Lorem Ipsum available.</p>
+          <h4 class="font-semibold">Learn More</h4>
+          </div>
+
+        </div>
+
+      </div>
+     </section>
+     
   </main>
   <!-- Footer section -->
   <footer class="bg-orange-100 text-gray-700 py-10 px-4 md:px-16">
